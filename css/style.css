@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Nunito;
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    padding: 3.2rem;
+}
+
+figure{
+    width: 8.2rem;
+    height: 4rem;
+    border-radius: 2.4rem;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+main{
+    width: 60rem;
+    margin: auto;
+}
