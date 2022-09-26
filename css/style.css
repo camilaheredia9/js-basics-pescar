@@ -35,3 +35,20 @@ main{
     width: 60rem;
     margin: auto;
 }
+.boton{
+    font-weight: 600;
+    background-color: chocolate;
+    padding: 1.2rem 3.2rem;
+    border-radius: 2.4rem;
+    color: gold;
+    cursor: pointer;
+    transition: .3s;
+}
+    .boton:hover {
+        background-color: #ea7f31;
+    }
+    #dado{
+        display: block;
+        margin-top: 2.4rem;
+        width: 25.6rem;
+    }
